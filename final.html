@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Layout</title>
+    <style>
+        body {
+            background-color: rgb(240, 225, 209);
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 10px 0;
+        }
+
+        .Barra {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background: pink;
+            border-radius: 30px;
+            padding: 10px;
+        }
+
+        .Barra img {
+            height: 100px;
+        }
+
+        .seletor a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            margin: 8px 0;
+        }
+
+        #início, #lembranças, #pessoascoisassonhos {
+            background: rgb(241, 227, 207);
+            padding: 20px 10px;
+        }
+
+        .Elementos {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        
+        }
+
+        .Elementos img {
+            width: 90%;
+            max-width: 300px;
+            margin: 10px 0;
+            border-radius: 30px;
+        }
+
+        .Informações p {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+
+        .subtitulo {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .blocos {
+            display: flex;
+            flex-direction: column;
+            background: pink;
+            border-radius: 20px;
+            padding: 15px;
+            gap: 20px;
+        }
+
+        .blocos img {
+            width: 100%;
+            max-width: 300px;
+            align-self: center;
+            border-radius: 30px;
+        }
+
+        .texto {
+            text-align: center;
+        }
+
+        .etc {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 5px 0;
+        }
+
+        #footer {
+            background: pink;
+            text-align: center;
+            padding: 15px;
+        }
+
+        #footer p, #footer a {
+            font-size: 16px;
+            margin: 5px 0;
+            color: black;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+
+    <section id="Cabeçalho">
+        <div class="Barra">
+            <img src="https://images.vexels.com/media/users/3/137349/isolated/preview/7b8717630942d7fb84ae3c74b0602c0f-minimalismo-do-logotipo-do-coracao.png"
+                 alt="Coração"
+                 title="Coração">
+
+            <div class="seletor">
+                <header>
+                    <a href="#início">Início</a>
+                    <a href="#lembranças">Lembranças</a>
+                    <a href="#pessoascoisassonhos">Pessoas, coisas ou sonhos</a>
+                </header>
+            </div>
+        </div>
+    </section>
+
+    <section id="início">
+        <div class="Elementos">
+            <img src="./Saved Pictures/WhatsApp Image 2025-09-03 at 17.29.01.jpeg" alt="Foto" title="Foto">
+            <div class="Informações">
+                <p><strong>Nome:</strong> Lara Englerth</p>
+                <p><strong>Idade:</strong> 15 anos</p>
+                <p><strong>Origem:</strong> Curitiba</p>
+                <p><strong>Profissão:</strong> Social Media</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="lembranças">
+        <p class="subtitulo">Lembranças</p>
+        <div class="Elementos">
+            <img src="./Saved Pictures/formatura.jpeg" alt="Formatura" title="Formatura">
+            <p>Formatura Ens. Fundamental</p>
+
+            <img src="./Saved Pictures/missao.jpeg" alt="Missão" title="Missão">
+            <p>Missão Paraguai</p>
+
+            <img src="./Saved Pictures/laraSendoRica.jpeg" alt="Viagem" title="Viagem">
+            <p>Viagem: Itália</p>
+
+            <img src="./Saved Pictures/laraNoCampori.jpeg" alt="Campori" title="Campori">
+            <p>Campori: Filho do Rei</p>
+        </div>
+    </section>
+
+    <section id="pessoascoisassonhos">
+        <p class="subtitulo">Pessoas, coisas ou sonhos</p>
+        <div class="blocos">
+            <div class="texto">
+                <img src="./Saved Pictures/lara&companhia.jpeg" alt="amigas" title="amigas">
+                <p class="etc"> Gabi e Gi</p>
+                <p>Minhas melhores amigas</p>
+                <p>Conheci elas em 2023, quando estudamos juntas</p>
+            </div>
+
+            <div class="texto">
+                <img src="./Saved Pictures/fotoCachorro.jpeg" alt="Max" title="Max">
+                <p class="etc">Max</p>
+                <p>Meu primeiro cachorro</p>
+                <p>Ganhei em 2020 como uma forma de aliviar minha ansiedade por conta da pandemia</p>
+            </div>
+
+            <div class="texto">
+                <img src="./Saved Pictures/WhatsApp Image 2025-09-03 at 17.26.17.jpeg" alt="Medicina" title="Medicina">
+                <p class="etc">Me formar em Medicina</p>
+                <p>Um dos meus maiores sonhos e objetivos é me formar em Medicina, pois quero ter a oportunidade de dar uma vida melhor para pessoas</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer">
+        <p>Todos os direitos reservados a</p>
+        <a href="https://www.instagram.com/lara.englerth/?next=%2F">@Lara Englerth</a>
+    </section>
+
+</body>
+</html>
